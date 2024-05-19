@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CECECE;
+
+}
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: #F2EEFF;
+    height: 100px;
+}
+
+.header__list{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+}
+.header__item{
+    font-size: 24px;
+    margin-top: 20px;
+ 
+}
+
+.logo{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 50px;
+    width: 1533px;
+    height: 618px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-image: url('../Rectangle 3.png');
+}
+
+.card{
+    width: 758px;
+    height: 618px;
+    background-color: #680099;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.title{
+    text-align: center;
+    font-size: 64px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Manrope;
+}
+.text1{
+    width: 404px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Manrope;
+    line-height: 28px;
+}
+.text2{
+    width: 404px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: Manrope;
+    line-height: 28px;
+}
+
+.part2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.grid-container {
+    position: absolute;
+    margin-right: -900px;
+    display: grid;
+    grid-template-columns: auto auto ;
+
+    padding: 10px;
+  }
+  .grid-item {
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    color: white;
+    width: 407px;
+    height: 216px;
+    background-color: #680099;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-container2 {
+    display: grid;
+    position: relative;
+    right: 450px;
+    grid-template-columns: 400px 300px;
+    grid-template-rows: 300px 300px;
+    background-color: #680099;
+  
+  }
+  .grid-item2 {
+
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .imng{
+    background-image: url('../Fortnite\ 2.png');
+  }
+  .grid_text{
+    display: flex;
+    position: absolute;
+    color: white;
+    margin-top: 230px;
+  }
+
+  .part3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    padding: 10px;
+  }
+  .grid-item3 {
+
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .img3{
+    width: 780px;
+
+  }
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: #291F2E;
+    height: 706px;
+  }
+
+  .header2{
+    width: 100%;
+    display: flex;
+    background-color: #291F2E;
+    color: white;
+    height: 100px;
+    border-top: 1px solid white;
+    position: absolute;
+    margin-top: 600px;
+  }
